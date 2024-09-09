@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 462
+  Height = 561
+  Top = 207
+  Width = 769
+  Caption = 'Form1'
+  ClientHeight = 561
+  ClientWidth = 769
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 232
+    Height = 20
+    Top = 80
+    Width = 124
+    Caption = 'Координаты x1,y1'
+  end
+  object Label2: TLabel
+    Left = 232
+    Height = 20
+    Top = 128
+    Width = 124
+    Caption = 'Координаты x2,y2'
+  end
+  object Edit1: TEdit
+    Left = 384
+    Height = 28
+    Top = 80
+    Width = 100
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 504
+    Height = 28
+    Top = 80
+    Width = 100
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 384
+    Height = 28
+    Top = 120
+    Width = 100
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 504
+    Height = 28
+    Top = 120
+    Width = 100
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 504
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Выход'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Label3: TLabel
+    Left = 296
+    Height = 20
+    Top = 168
+    Width = 78
+    Caption = 'Площадь ='
+  end
+  object Label4: TLabel
+    Left = 288
+    Height = 20
+    Top = 216
+    Width = 89
+    Caption = 'Периметр = '
+  end
+  object Edit5: TEdit
+    Left = 384
+    Height = 28
+    Top = 168
+    Width = 100
+    TabOrder = 5
+  end
+  object Edit6: TEdit
+    Left = 384
+    Height = 28
+    Top = 216
+    Width = 100
+    TabOrder = 6
+  end
+  object Button2: TButton
+    Left = 504
+    Height = 31
+    Top = 168
+    Width = 94
+    Caption = 'Ответ'
+    TabOrder = 7
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 608
+    Height = 31
+    Top = 168
+    Width = 94
+    Caption = 'Очистить'
+    TabOrder = 8
+    OnClick = Button3Click
+  end
+end
